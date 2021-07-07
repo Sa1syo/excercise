@@ -6,6 +6,11 @@ int main(void) {
     srand((unsigned int)time(NULL));
   int dice[2];
 
+  char name[50];
+  printf("What is your name? ");
+  scanf("%s",name);
+  printf("Hello, %s!",name);
+
   printf("Rolling the dice...\n");
 
   for(int i=0;i<2;i++)
